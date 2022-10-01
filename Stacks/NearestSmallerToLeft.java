@@ -3,7 +3,7 @@ import java.util.Stack;
 public class NearestSmallerToLeft {
 
      public static void main(String[] args) {
-          int[] arr = { 1, 3, 2, 4 };
+          int[] arr = { 4, 5, 2, 10, 8 };
           int[] nsl = NSL(arr);
 
           for (int i : nsl) {
