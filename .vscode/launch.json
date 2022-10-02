@@ -1,0 +1,56 @@
+{
+     // Use IntelliSense to learn about possible attributes.
+     // Hover to view descriptions of existing attributes.
+     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+     "version": "0.2.0",
+     "configurations": [
+          {
+               "type": "java",
+               "name": "Launch StockSpan",
+               "request": "launch",
+               "mainClass": "StockSpan",
+               "projectName": "Aditya Verma Codes_569f05fb"
+          },
+          {
+               "type": "java",
+               "name": "Launch Current File",
+               "request": "launch",
+               "mainClass": "${file}"
+          },
+          {
+               "type": "java",
+               "name": "Launch NearestGreaterToLeft",
+               "request": "launch",
+               "mainClass": "NearestGreaterToLeft",
+               "projectName": "Aditya Verma Codes_569f05fb"
+          },
+          {
+               "type": "java",
+               "name": "Launch NearestGreaterToRight",
+               "request": "launch",
+               "mainClass": "NearestGreaterToRight",
+               "projectName": "Aditya Verma Codes_569f05fb"
+          },
+          {
+               "type": "java",
+               "name": "Launch NearestSmallerToLeft",
+               "request": "launch",
+               "mainClass": "NearestSmallerToLeft",
+               "projectName": "Aditya Verma Codes_569f05fb"
+          },
+          {
+               "type": "java",
+               "name": "Launch NearestSmallerToRight",
+               "request": "launch",
+               "mainClass": "NearestSmallerToRight",
+               "projectName": "Aditya Verma Codes_569f05fb"
+          },
+          {
+               "type": "java",
+               "name": "Launch RainWaterTrapping",
+               "request": "launch",
+               "mainClass": "RainWaterTrapping",
+               "projectName": "Aditya Verma Codes_569f05fb"
+          }
+     ]
+}
