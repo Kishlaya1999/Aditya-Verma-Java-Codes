@@ -1,5 +1,4 @@
 import java.util.Stack;
-import javax.lang.model.element.Element;
 
 public class NearestGreaterToLeft {
 

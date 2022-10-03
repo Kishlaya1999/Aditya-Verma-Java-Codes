@@ -6,6 +6,13 @@
      "configurations": [
           {
                "type": "java",
+               "name": "Launch MaximumAreaOfHistogram",
+               "request": "launch",
+               "mainClass": "MaximumAreaOfHistogram",
+               "projectName": "Aditya Verma Codes_569f05fb"
+          },
+          {
+               "type": "java",
                "name": "Launch StockSpan",
                "request": "launch",
                "mainClass": "StockSpan",
