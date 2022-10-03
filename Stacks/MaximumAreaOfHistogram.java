@@ -7,7 +7,7 @@ public class MaximumAreaOfHistogram {
           System.out.println(maximumAreaOfHistogram(arr));
      }
 
-     private static int maximumAreaOfHistogram(int[] height) {
+     static int maximumAreaOfHistogram(int[] height) {
 
           int[] NSLindex = nearestSmallestToLeftIndex(height);
           int[] NSRindex = nearestSmallestToRightIndex(height);
