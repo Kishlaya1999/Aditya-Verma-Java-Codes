@@ -6,6 +6,13 @@
      "configurations": [
           {
                "type": "java",
+               "name": "Launch MinStackUsingExtraSpace",
+               "request": "launch",
+               "mainClass": "MinStackUsingExtraSpace",
+               "projectName": "Aditya Verma Codes_569f05fb"
+          },
+          {
+               "type": "java",
                "name": "Launch MaximumAreaOfRectangleInBinaryMatrix",
                "request": "launch",
                "mainClass": "MaximumAreaOfRectangleInBinaryMatrix",

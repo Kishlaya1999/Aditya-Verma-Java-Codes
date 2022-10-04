@@ -1,7 +1,7 @@
 public class RainWaterTrapping {
 
      public static void main(String[] args) {
-          int[] arr = { 6, 7, 5, 2, 4, 5, 9, 3 };
+          int[] arr = { 3, 0, 0, 2, 470, 4 };
           System.out.println(rainWaterTrapping(arr));
      }
 
