@@ -1,4 +1,7 @@
+// Fixed Size Window
 
+// Time Complexity : O(n)
+// Space Complexity : O(1)
 public class MaximumSumSubarrayOfSizeK {
 
      public static void main(String[] args) {
@@ -11,9 +14,10 @@ public class MaximumSumSubarrayOfSizeK {
           // initializing both the pointer with 0
           int i = 0; // Start of the window
           int j = 0; // End of the window
-          int sum = 0; // sum of the window
+          int sum = 0; // sum always contains the sum of the window
           int max = -1; // Maximum sum of windows uptil now
           while (j < arr.length) {
+               // Till now there is sum of the only first two element of current window
                // Adding the new element that has just came in the window
                sum = sum + arr[j];
                // Only runs till the window is not formed
@@ -24,6 +28,7 @@ public class MaximumSumSubarrayOfSizeK {
                     // out of two
                     max = Math.max(max, sum);
                     // Removing the first element of the window from the sum
+                    // Before moving the pointer removing the first element of the previous window
                     sum = sum - arr[i];
                     // Moving the window by one place
                     i++;
