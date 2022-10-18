@@ -8,24 +8,29 @@ public class MaximumAreaOfHistogram {
      }
 
      static int maximumAreaOfHistogram(int[] height) {
-
+          // Finding next smallest to left and right
           int[] NSLindex = nearestSmallestToLeftIndex(height);
           int[] NSRindex = nearestSmallestToRightIndex(height);
           int[] width = new int[height.length];
 
+          // Calculating the width of the rectangle that can be formed using Next smallest
+          // to left and right index
           for (int i = 0; i < height.length; i++) {
                width[i] = NSRindex[i] - NSLindex[i] - 1;
           }
 
+          // Calculating the area that can be formed for the current bar
           int[] area = new int[height.length];
           for (int i = 0; i < height.length; i++) {
                area[i] = width[i] * height[i];
           }
 
+          // Finding the maximum area out of all the area
           int max = -1;
           for (int i = 0; i < width.length; i++) {
                max = Math.max(max, area[i]);
           }
+          // returning the maximum area of Histogram
           return max;
      }
 
@@ -33,6 +38,12 @@ public class MaximumAreaOfHistogram {
           Stack<int[]> st = new Stack<>();
           int[] ans = new int[height.length];
           int k = height.length - 1;
+          /*
+           * psudo_index is the index if there is no element towards right that is
+           * smallest towards right then writing the index which is equal to length of
+           * array because there is no number at that place so it is the next smallest
+           * towards right
+           */
           int psudo_index = height.length;
 
           for (int i = height.length - 1; i >= 0; i--) {

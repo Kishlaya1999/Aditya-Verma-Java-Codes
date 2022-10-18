@@ -1,11 +1,11 @@
 import java.util.Stack;
 
-public class MinStackUsingWithoutUsingExtraSpace {
+public class MinStackWithoutUsingExtraSpace {
 
      Stack<Integer> st = new Stack<>();
      int minElement = Integer.MIN_VALUE;
 
-     public MinStackUsingWithoutUsingExtraSpace() {
+     public MinStackWithoutUsingExtraSpace() {
      }
 
      public void push(int val) {
@@ -73,7 +73,7 @@ public class MinStackUsingWithoutUsingExtraSpace {
      }
 
      public static void main(String[] args) {
-          MinStackUsingWithoutUsingExtraSpace st = new MinStackUsingWithoutUsingExtraSpace();
+          MinStackWithoutUsingExtraSpace st = new MinStackWithoutUsingExtraSpace();
 
           st.push(10);
           st.push(15);
