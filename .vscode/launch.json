@@ -6,6 +6,13 @@
      "configurations": [
           {
                "type": "java",
+               "name": "Launch LargestSubarrayOfSumK",
+               "request": "launch",
+               "mainClass": "LargestSubarrayOfSumK",
+               "projectName": "Aditya Verma Codes_569f05fb"
+          },
+          {
+               "type": "java",
                "name": "Launch MaximumOfAllSubarrayOfSizeK",
                "request": "launch",
                "mainClass": "MaximumOfAllSubarrayOfSizeK",
