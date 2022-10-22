@@ -1,5 +1,7 @@
 import java.util.HashMap;
 
+// Time Complexity : O(n)
+// Space Complexity : O(k) where k is the size of pattern string
 public class CountOccurencesOfAnagrams {
 
      public static void main(String[] args) {

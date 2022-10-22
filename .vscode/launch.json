@@ -6,6 +6,13 @@
      "configurations": [
           {
                "type": "java",
+               "name": "Launch MaximumOfAllSubarrayOfSizeK",
+               "request": "launch",
+               "mainClass": "MaximumOfAllSubarrayOfSizeK",
+               "projectName": "Aditya Verma Codes_569f05fb"
+          },
+          {
+               "type": "java",
                "name": "Launch CountOccurencesOfAnagrams",
                "request": "launch",
                "mainClass": "CountOccurencesOfAnagrams",
