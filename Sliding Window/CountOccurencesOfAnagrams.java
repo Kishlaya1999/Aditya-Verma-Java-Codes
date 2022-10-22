@@ -7,8 +7,8 @@ public class CountOccurencesOfAnagrams {
      public static void main(String[] args) {
           String str1 = "forxxorfxdofr";
           String ptr1 = "for";
-          String str2 = "aabaabaa";
-          String ptr2 = "aaba";
+          // String str2 = "aabaabaa";
+          // String ptr2 = "aaba";
           System.out.println(countOccurencesOfAnagrams(str1, ptr1));
      }
 

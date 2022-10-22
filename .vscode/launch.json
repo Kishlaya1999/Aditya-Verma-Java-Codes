@@ -6,6 +6,20 @@
      "configurations": [
           {
                "type": "java",
+               "name": "Launch LongestSubstringWithNoRepeatingCharacters",
+               "request": "launch",
+               "mainClass": "LongestSubstringWithNoRepeatingCharacters",
+               "projectName": "Aditya Verma Codes_569f05fb"
+          },
+          {
+               "type": "java",
+               "name": "Launch LongestSubstringWithkUniqueCharacters",
+               "request": "launch",
+               "mainClass": "LongestSubstringWithkUniqueCharacters",
+               "projectName": "Aditya Verma Codes_569f05fb"
+          },
+          {
+               "type": "java",
                "name": "Launch LargestSubarrayOfSumK",
                "request": "launch",
                "mainClass": "LargestSubarrayOfSumK",

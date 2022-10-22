@@ -1,0 +1,31 @@
+General Format for Fixed Size Sliding Window
+
+
+General Format for Variable Size Sliding Window
+
+          int i = 0;
+          int j = 0;
+          while (j < arr.length) {
+               // Calculation for jth element
+
+               if (condition < k) {
+                    j++;
+               }
+               
+               else if (condition == k) {
+                    ans <-- Calculation
+                    j++;
+               }
+               
+               else if (sum > k) {
+                    while (sum > k) {
+                         Remove the Calculation for i
+                         i++;
+                    }
+                    j++;
+               }
+
+          }
+
+          return ans;
+     
