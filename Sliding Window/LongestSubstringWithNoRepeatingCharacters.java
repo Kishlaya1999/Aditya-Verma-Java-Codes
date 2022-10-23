@@ -14,6 +14,7 @@ public class LongestSubstringWithNoRepeatingCharacters {
           int i = 0;
           int j = 0;
           while (j < str.length()) {
+
                // Calculation for jth element
                char ch = str.charAt(j);
                if (map.containsKey(ch)) {
@@ -27,11 +28,17 @@ public class LongestSubstringWithNoRepeatingCharacters {
                 * characters than the hashmap size
                 * for example : if window size is 3 then there can't be more than 3 characters
                 * which are unique
+                * it is never possible that there are 4 unique charcter in window size of 3
+                * so discarding this condition
                 */
                // if (map.size() > j - i + 1) {
                // j++;
                // }
 
+               /*
+                * If hashmap size is equal to window size (substring) then all the elemets
+                * present in the window would be unique
+                */
                if (map.size() == j - i + 1) {
                     longest = Math.max(longest, j - i + 1);
                     j++;
